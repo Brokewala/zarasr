@@ -1,0 +1,307 @@
+#AboutTretec {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.AboutTretec-container {
+    width: 90%;
+    margin: 0px auto;
+    padding: 5% 0px;
+}
+
+.AboutTretec-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutTretec-title-content h1 {
+    text-align: center;
+    color: var(--bg1);
+    text-transform: uppercase;
+}
+
+.AboutTretec_line {
+    background-color: var(--bg1);
+    display: inline-block;
+    height: 5px;
+    width: 260px;
+    position: relative;
+}
+
+.AboutTretec_line::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    border-radius: 50%;
+    transform: translate(0%, -40%);
+    background-color: var(--red1);
+    border: 5px solid var(--bg1);
+}
+
+
+
+.AboutTretec-Conseil-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 0px;
+}
+
+.AboutTretec-Conseil-right {
+    position: relative;
+}
+
+.AboutTretec-Conseil-right img {
+    width: 400px;
+}
+
+.AboutTretec-info-list ul {
+    margin-top: 22px;
+}
+
+.AboutTretec-info-list ul li {
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+.AboutTretec-Conseil-left h1 {
+    font-size: 2em;
+    color: var(--bg1);
+    text-transform: uppercase;
+
+}
+
+.AboutTretec-web-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.AboutTretec-web-left img {
+    width: 500px;
+}
+
+.AboutTretec-web-right {
+    padding: 10px;
+}
+
+.AboutTretec-web-right h1 {
+    color: var(--bg1);
+    font-size: 2em;
+    text-transform: uppercase;
+
+}
+
+.AboutTretec-web-right ul li {
+    font-size: 1.3em;
+    margin-top: 21px;
+    /* color: var(--bg1); */
+}
+
+.AboutTretec-formation {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* background-color: red; */
+}
+
+.AboutTretec-formation-left {
+    max-width: 600px;
+}
+
+.AboutTretec-formation-right img {
+    width: 400px;
+    height: 300px;
+}
+
+.AboutTretec-formation-left h1 {
+    font-size: 2.1em;
+    color: var(--bg1);
+    text-transform: uppercase;
+}
+
+.AboutTretec-formation-left p {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.AboutTretec-formation-left ul li {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.AboutTretec-info-tretec {
+    text-align: center;
+    padding: 30px 60px;
+}
+
+.AboutTretec-info-tretec p {
+    font-size: 1.2em;
+    font-weight: 400;
+
+}
+
+.AboutTretec-auther {
+    padding: 50px 0px;
+}
+
+.AboutTretec-auther-title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--bg1);
+
+}
+
+.AboutTretec-auther-container {
+    margin-top: 40px;
+    /* display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse; */
+    /* background-color: red; */
+}
+
+.AboutTretec-auther-mix {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.AboutTretec-auther-center img {
+    width: 40em;
+}
+
+@keyframes BannerImg {
+    from {
+        scale: 1;
+    }
+
+    to {
+        scale: 1.1;
+    }
+}
+
+.AboutTretec-auther-left {
+    padding-left: 15px;
+}
+
+.AboutTretec-auther-left ul li,
+.AboutTretec-auther-right ul li {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+.AboutTretec-last p {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+@media screen and (max-width:1024px) {
+    .AboutTretec-Conseil-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .AboutTretec-web-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .AboutTretec-formation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .AboutTretec-auther-mix {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .AboutTretec-Conseil-right {
+        display: none;
+    }
+
+    .AboutTretec-web-container {
+        padding: 10px 0px;
+    }
+
+    .AboutTretec-web-left {
+        display: none;
+    }
+
+    .AboutTretec-formation-right {
+        display: none;
+    }
+
+    .AboutTretec-auther-mix {
+        display: none;
+
+    }
+
+    .AboutTretec-info-tretec {
+        padding: 30px 10px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .AboutTretec-Conseil-left h1 {
+        font-size: 1em;
+    }
+
+    .AboutTretec-info-list ul li {
+        font-size: 1em;
+    }
+
+    .AboutTretec-web-right h1 {
+        font-size: 1em;
+    }
+
+    .AboutTretec-web-right ul li {
+        font-size: 1em;
+    }
+
+    .AboutTretec-formation-left h1 {
+        font-size: 1em;
+    }
+
+    .AboutTretec-formation-left p {
+        font-size: 1em;
+    }
+
+    .AboutTretec-formation-left ul li {
+        font-size: 1em;
+    }
+
+    .AboutTretec-auther-title h1 {
+        font-size: 1em;
+    }
+
+    .AboutTretec-auther-left ul li,
+    .AboutTretec-auther-right ul li {
+        font-size: 1em;
+    }
+    .AboutTretec-last p {
+        font-size: 1em;
+
+    }
+}

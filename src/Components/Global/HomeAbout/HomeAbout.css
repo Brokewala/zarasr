@@ -1,0 +1,165 @@
+#HomeAbout h1 {
+    text-align: center;
+}
+
+#HomeAbout {
+    margin-bottom: 30px;
+}
+
+.HomeAbout-container {
+    width: 90%;
+    margin: 0px auto;
+    padding-bottom: 30px;
+}
+
+.HomeAbout-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+}
+
+.HomeAbout-title h1 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: var(--bg);
+}
+
+.HomeAbout_underline {
+    background-color: var(--red);
+    display: block;
+    height: 5px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.HomeAbout_underline::after {
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: var(--red);
+    right: 0;
+    border-radius: 50%;
+    transform: translate(5%, -40%);
+    border: 3px solid var(--bg1);
+}
+
+.HomeAbout-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.HomeAboutCard {
+    width: 350px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    transition: .3s;
+    background-color: var(--white);
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.18);
+
+}
+
+.HomeAboutCard:hover {
+    background-color: var(--bg1);
+    color: var(--white);
+
+}
+
+.HomeAbout-card-title {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.HomeAbout-card-title h1 {
+    text-transform: uppercase;
+    font-size: 1.6em;
+    color: var(--bg);
+}
+
+.HomeAboutCard:hover h1 {
+    color: var(--white);
+}
+
+.HomeAbout-card-body p {
+    word-wrap: break-word;
+    font-size: 1.1em;
+}
+
+.HomeAbout-card-bts {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btn_savoir {
+    background-color: var(--red2);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+@media screen and (max-width:970px) {
+    .HomeAbout-card-body p {
+        word-wrap: break-word;
+        font-size: 1.1em;
+    }
+
+    .HomeAbout-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    .HomeAboutCard {
+        width: 100%;
+    }
+
+    .HomeAbout-card-title h1 {
+        font-size: 1.5em;
+    }
+
+    .btn_savoir {
+        padding: 0.5em 2em;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .HomeAboutCard {
+        width: 100%;
+    }
+
+    .HomeAbout-card-title h1 {
+        font-size: 1.5em;
+    }
+
+    .HomeAbout-card-body p {
+        font-size: 1em;
+    }
+
+    .btn_savoir {
+        padding: 0.5em 1em;
+        font-size: 1em;
+    }
+
+    .HomeAbout-card-bts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

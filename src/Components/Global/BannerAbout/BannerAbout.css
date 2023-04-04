@@ -1,0 +1,70 @@
+#BannerAbout{
+    height: 500px;
+    width: 100%;
+}
+.BannerAbout_content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BannerAbout_card_content{
+    background-color: rgba(255, 255, 255, 0.829);
+    box-shadow: 10px 10px 0px var(--bg);
+
+    padding: 20px;
+    width: 650px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BannerAbout_card{
+    text-align: center;
+}
+.about_span_we {
+    color: var(--red);
+    font-size: 15px;
+    font-family: 'Gabriola';
+    font-style: italic;
+    font-weight: 500;
+}
+.BannerAbout_card h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--bg);
+    margin-bottom: 20px;
+}
+
+.BannerAbout_card h1 {
+    color: var(--bg);
+    margin-bottom: 10px;
+}
+
+.BannerAbout_card h3 span {
+    color: var(--red);
+    font-style: italic;
+    font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.about_contact_savoir {
+    background: #000;
+    color: #fff;
+    border: 2px solid white;
+    width: 200px;
+    padding: 10px 25px;
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: 500px;
+    /* box-shadow: 10px 10px 0px red; */
+    cursor: pointer;
+    transition: .4s;
+}
+
+.about_contact_savoir:hover {
+    box-shadow: 10px 10px 0px #000;
+    /* background: red; */
+}

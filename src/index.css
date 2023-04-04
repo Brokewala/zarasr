@@ -1,0 +1,150 @@
+:root {
+  --color: #1D3461;
+  --color1: #1F487E;
+  --color2: #376996;
+  --color3: #6290C8;
+  --color4: #829CBC;
+  --white: White;
+  --white1: #f2f2f2;
+  --black: #333;
+  --red1: #cf2e2e; 
+  --red2: #ff6900;
+  --bg: #408080;
+  --red: #ff1111 !important;
+  --bg1: #51A2A2;
+  --light: #efefef;
+  --or:#f49030;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* cursor: none; */
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: var(--bg);
+  color: var(--white);
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: .3s;
+}
+.btn:hover{
+  background-color: var(--red2);
+}
+
+
+
+body::-webkit-scrollbar {
+  background-color: var(--white);
+  width: 1em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--bg);
+}
+
+.red {
+  color: var(--red2);
+  font-style: italic;
+}
+
+
+
+.anime {
+  animation: upDown 3s linear infinite;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(-20px);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.up {
+  animation: Up 3s linear infinite;
+}
+
+@keyframes Up {
+  0% {
+    transform: translateY(-15px);
+  }
+
+  50% {
+    transform: translateY(15px);
+  }
+
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+.down {
+  animation: Down 3s linear infinite;
+}
+
+@keyframes Down {
+  0% {
+    transform: translateY(15px);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(15px);
+  }
+}
+.link{
+  transition: .3s;
+}
+.link:hover{
+  background-color: var(--red2);
+  box-shadow: 5px 5px 0px var(--color3);
+  color: var(--white);
+}
+.icon:hover{
+  color: var(--red2);
+}
+.iconW{
+  transition: .3s;
+ 
+}
+.iconW:hover{
+  color: var(--red2);
+}

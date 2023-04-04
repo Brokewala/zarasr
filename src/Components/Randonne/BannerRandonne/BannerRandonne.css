@@ -1,0 +1,55 @@
+#BannerRandonne {
+    /* background: url("../../../../public/assets/pexels-asad-photo-maldives-1450340.jpg") center/cover no-repeat; */
+    background: url("../../../../public/assets/banner.jpg") center/cover no-repeat;
+    height: 600px;
+}
+
+.BannerRandonne-container {
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.BannerRandonne-card{
+    margin-top: -20px;
+}
+.BannerRandonne-info{
+    text-align: center;
+    color: #fff;
+}
+.BannerRandonne-info h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.BannerRandonne-info h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: var(--white);
+
+}
+.BannerRandonne-btn{
+    margin-top: 20px;
+    text-align: center;
+}
+.btn-randonne{
+    border: none;
+    padding: 8px 25px;
+    font-size: 1.2em;
+    font-weight: 600;
+    background-color: var(--red2);
+    color: var(--white);
+    cursor: pointer;
+    margin-top: 10px;
+    text-transform: uppercase;
+    /* border-radius: 5px; */
+    transition: .3s;
+}
+.btn-randonne:hover{
+    background-color: var(--bg);
+}

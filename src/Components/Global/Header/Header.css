@@ -1,0 +1,85 @@
+#Header {
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.18);
+    background-color: var(--bg);
+    color: var(--white);
+}
+
+.Header-container {
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.Header-left .logo {
+    width: 150px;
+}
+
+.Header-link ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Header-link ul li {
+    margin-left: 20px;
+}
+
+.Header-link ul li a {
+    text-transform: uppercase;
+    padding: 5px 20px;
+    font-weight: 500;
+    height: 100%;
+    transition: .3s;
+    color: white;
+}
+
+
+@media screen and (max-width:1500px) {
+    .Header-left .logo {
+        font-size: 3em;
+    }
+
+    .Header-container {
+        padding: 0.3em 0px;
+    }
+
+    .Header-link ul li a {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:990px) {
+
+    .Header-left .logo {
+        font-size: 4em;
+    }
+
+    .Header-container {
+        padding: 0.3em 0px;
+    }
+
+    .Header-link ul li a {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:945px) {
+    .Header-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Header-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Header-right {
+        display: none;
+    }
+}

@@ -1,0 +1,88 @@
+#Banner {
+    /* color: var(--white); */
+    /* background: rgb(64, 128, 128); */
+    /* background: linear-gradient(180deg, rgba(64, 128, 128, 1) 0%, rgba(255, 255, 255, 1) 100%); */
+}
+
+.Banner-container {
+    width: 85%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+
+.Banner-left {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+
+.Banner-title h1 {
+    font-size: 45px;
+    color: var(--bg);
+}
+
+.Banner-title p {
+    margin: 15px 0px;
+    font-size: 1.2em;
+    padding-right: 20px;
+    color: var(--black);
+    font-weight: 400;
+}
+
+.Banner-title .Banner_p {
+    font-size: 1em;
+    color: var(--black);
+}
+
+.Banner-right img {
+    animation: BannerImg 3s linear infinite;
+    transition: 100s;
+}
+
+@keyframes BannerImg {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.btn-banner {
+    border: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-top: 10px;
+}
+@media screen and (max-width:1024px) {
+    .Banner-container {
+        padding-top: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .Banner-right{
+        display: none;
+    }
+}
+@media screen and (max-width:375px) {
+    .Banner-title h1 {
+        font-size: 30px;
+    }
+    .Banner-container{
+        padding-top: 25%;
+    }
+}

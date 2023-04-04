@@ -1,0 +1,27 @@
+#GlobalAboutTretec{
+    background-color: var(--bg);
+    color: white;
+}
+.GlobalAboutTretec-container{
+    width: 85%;
+    margin: 0px auto;
+    padding: 4em 0px;
+}
+.GlobalAboutTretec-container h1{
+    color: var(--white);
+    margin-bottom: 10px;
+}
+.GlobalAboutTretec-content{
+    display: flex;
+    align-items: center;
+}
+.GlobalAboutTretec-content-left p{
+    margin-top: 12px;
+    font-size: 1.1em;
+}
+.GlobalAboutTretec-content-right{
+    display: none;
+}
+.GlobalAboutTretec-content-right img{
+    width: 400px;
+}

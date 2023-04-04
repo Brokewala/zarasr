@@ -1,0 +1,12 @@
+.GlobalAboutRandonne-container {
+    width: 85%;
+    margin: 0px auto;
+    padding: 2% 0px;
+}
+.GlobalAboutRandonne-container h1{
+    color: var(--bg);
+}
+.GlobalAboutRandonne-content-left p{
+    margin-top: 10px;
+    font-size: 1.1em;
+}

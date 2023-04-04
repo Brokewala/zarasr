@@ -1,0 +1,17 @@
+.AboutZara_content{
+    width: 85%;
+    margin: 0px auto;
+    padding: 2% 0px;
+}
+.AboutZara_title h1{
+    color: var(--bg);
+}
+.AboutZara_randonne{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.AboutZara_randonne_right img{
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+.Layout-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.18);
+    /* background-color: var(--bg); */
+}
+
+.Layout-container {
+    padding-top: 4%;
+    min-height: 80vh;
+}
+
+/* cursor layout */
+.cursor {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 3.5rem;
+    height: 3.5rem;
+    transform: translate(-45%, -45%);
+    z-index: 3000;
+    border-radius: 50%;
+    border: 2px solid #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    transition: all 0.5s ease;
+    /* backdrop-filter: brightness(250%); */
+    transition-property: background, transform;
+}
+
+@media screen and (max-width:768px) {
+    #Nav {
+        display: none;
+    }
+}

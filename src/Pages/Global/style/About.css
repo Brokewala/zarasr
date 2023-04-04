@@ -1,0 +1,78 @@
+.About-container {
+    padding: 5% 0px;
+
+}
+
+@media screen and (max-width:1024px) {
+    .About-container {
+        padding-top: 30%;
+
+    }
+
+    .GlobalAboutTretec-container {
+        padding: 5% 0px;
+    }
+
+    .GlobalAboutTretec-content {
+        display: block;
+        align-items: center;
+    }
+
+    .GlobalAboutTretec-container h1 {
+        font-size: 1.5em;
+    }
+
+    .GlobalAboutTretec-content-left p {
+        margin-top: 20px;
+        font-size: 1em;
+    }
+
+    .GlobalAboutTravel-content-right {
+        display: none;
+    }
+
+    .GlobalAboutTravel-content {
+        display: block;
+    }
+
+    .GlobalAboutTravel-container h1 {
+        font-size: 1.5em;
+    }
+
+    .GlobalAboutTravel-content-left p {
+        margin-top: 20px;
+        font-size: 1em;
+    }
+
+    .GlobalAboutRandonne-container {
+        padding: 4% 0px;
+    }
+
+    .GlobalAboutRandonne-container h1 {
+        font-size: 1.5em;
+    }
+
+    .GlobalAboutRandonne-content-left p {
+        margin-top: 20px;
+        font-size: 2em;
+    }
+
+    .GlobalAboutZara-content-left p {
+        margin-top: 20px;
+        font-size: 1em;
+    }
+
+    .GlobalAboutZara-container {
+        padding: 7% 0px;
+    }
+    .GlobalAboutZara-container h1{
+        font-size: 1.5em;
+    }
+    .GlobalAboutTretec-content-right {
+        display: none;
+    }
+
+    .GlobalAboutRandonne-content-left p {
+        font-size: 1em;
+    }
+}

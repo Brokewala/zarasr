@@ -1,0 +1,50 @@
+.DestinationRandonne-container {
+    padding: 10% 0px;
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+
+.DestinationRandonne-card-img {
+    text-align: center;
+}
+
+.DestinationRandonne-card-img img {
+    width: 200px;
+}
+
+.DestinationRandonne-card-info {
+    text-align: center;
+}
+
+.DestinationRandonne-card-info h1 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: var(--bg);
+}
+
+.DestinationRandonne-card-info p {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+@media screen and (max-width:990px) {
+    .DestinationRandonne-container {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .DestinationRandonne-card-info h1 {
+        font-size: 3em;
+
+    }
+
+    .DestinationRandonne-card-info p {
+        margin-top: 20px;
+        font-size: 2.2em;
+    }
+}

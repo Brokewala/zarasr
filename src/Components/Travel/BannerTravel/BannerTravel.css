@@ -1,0 +1,62 @@
+#BannerTravel{
+    padding-top: 4.5em;
+    height: 580px;
+    /* background: url('/public/assets/pexels-anamul-rezwan-1216589.jpg'); */
+    /* background: url('/public/assets/pexels-andrea-piacquadio-3801451.jpg'); */
+    /* background: url('/public/assets/pexels-tiger-lily-4481328.jpg'); */
+}
+.BannerTravel_container{
+    background: linear-gradient(90deg, #333, transparent);
+    height: 100%;
+}
+.BannerTravel-container {
+    width: 85%;
+    margin: 0px auto;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    align-items: center;
+
+}
+
+.BannerTravel-content-left h1 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 2.4em;
+    color: var(--bg);
+}
+
+.BannerTravel-content-left p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    color:white;
+
+}
+
+.btn_BannerTravel {
+    border: none;
+    font-size: 1.3em;
+    margin-top: 10px;
+    background-color: var(--red2);
+    color: var(--white);
+    padding: 0.5em 1.5em;
+}
+
+@media screen and (max-width:1024px) {
+    .btn_BannerTravel {
+        font-size: 2em;
+    }
+
+    .BannerTravel-container {
+        width: 85%;
+        padding-top: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BannerTravel-content-right {
+        display: none;
+    }
+}

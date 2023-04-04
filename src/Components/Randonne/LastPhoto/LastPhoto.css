@@ -1,0 +1,20 @@
+#LastPhoto{
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.slide_img{
+    height: 350px;
+}
+
+.slide_img_content img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+.LastPhoto_title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.LastPhoto_title h1{
+    color: var(--bg);
+}
