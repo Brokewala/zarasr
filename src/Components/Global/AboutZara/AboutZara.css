@@ -1,17 +1,77 @@
-.AboutZara_content{
+.AboutZara_content {
     width: 85%;
     margin: 0px auto;
     padding: 2% 0px;
 }
-.AboutZara_title h1{
-    color: var(--bg);
-}
-.AboutZara_randonne{
-    margin-top: 10px;
+
+.AboutZara1 {
     display: grid;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.AboutZara1 img {
+    width: 300px;
+}
+
+.TeamAbout_content {
+    background-color: green;
+    position: relative;
+    width: 630px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+
+#TeamAbout {
+    background-color: red;
+    width: 100%;
 
 }
-.AboutZara_randonne_right img{
-    width: 100%;
+
+.TeamAbout_img {
+    background-color: var(--bg);
+    width: 230px;
+    height: 320px;
+}
+
+.TeamAbout_img img {
+    width: 230px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.TeamAbout_img1 {
+    transform: rotateZ(-45deg);
+    margin-left: -80px
+}
+
+.TeamAbout_img2 {
+    transform: rotateZ(45deg);
+}
+
+.TeamAbout_img3 {
+    transform: rotateZ(-45deg);
+    margin-left: -80px;
+}
+
+.TeamAbout_img4 {
+    transform: rotateZ(45deg);
+
+}
+
+.TeamAbout_dec {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.TeamAbout_dec h3,
+.TeamAbout_dec h4 {
+    color: white;
+}
+.AboutZara_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
