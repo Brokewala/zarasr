@@ -1,0 +1,26 @@
+export const TretecData=[
+    {
+        image:"/tretec/s4.PNG",
+    },
+    {
+        image:"/tretec/s11.PNG",
+    },
+    {
+        image:"/tretec/s12.PNG",
+    },
+    {
+        image:"/tretec/s2.PNG",
+    },
+    {
+        image:"/tretec/s3.PNG",
+    },
+    {
+        image:"/tretec/s10.PNG",
+    },
+    {
+        image:"/tretec/s1.PNG",
+    },
+    {
+        image:"/tretec/s5.PNG",
+    },
+]

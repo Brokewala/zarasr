@@ -4,7 +4,7 @@ import "./BannerAbout.css"
 
 export default function BannerAbout() {
     return (
-        <div id="BannerAbout" style={{ background: 'url(/assets/pexels-fauxels-3184339.jpg) center/cover no-repeat ', }}>
+        <div id="BannerAbout" style={{ background: 'url(/assets/pexels-fauxels-3182812.jpg) center/cover no-repeat ', }}>
             <div className="BannerAbout_content">
                 <div className='BannerAbout_card_content'>
                     <div className='BannerAbout_card'>

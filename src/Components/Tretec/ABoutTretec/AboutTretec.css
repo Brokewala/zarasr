@@ -6,7 +6,8 @@
 .AboutTretec-container {
     width: 90%;
     margin: 0px auto;
-    padding: 5% 0px;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
 .AboutTretec-title {
@@ -300,6 +301,7 @@
     .AboutTretec-auther-right ul li {
         font-size: 1em;
     }
+
     .AboutTretec-last p {
         font-size: 1em;
 

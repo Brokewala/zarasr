@@ -14,10 +14,10 @@ export default function HomeRandonne() {
                     <BannerRandonne />
                     <DestinationRandonne />
                     <CirciutsRandonne />
-                    <LastPhoto/>
-                    <div className='HomeRandonne-contact' style={{textAlign: 'center',width: '80%',margin: "30px auto"}}>
+                    <LastPhoto />
+                    <div className='HomeRandonne-contact' style={{ textAlign: 'center', width: '80%', margin: "30px auto" }}>
                         <p>
-                        Zara sr, nous savons que voyager est une aventure humaine main également un engagement financier important pour vous. C'est pourquoi nous mettons un point d'honneur à prendre en compte chacun de vos attentes pour vous aider dans la preparation de votre séjour, circuit ou voyage su mesuré.</p>
+                            Zara sr, nous savons que voyager est une aventure humaine main également un engagement financier important pour vous. C'est pourquoi nous mettons un point d'honneur à prendre en compte chacun de vos attentes pour vous aider dans la preparation de votre séjour, circuit ou voyage su mesuré.</p>
                     </div>
                 </div>
             </div>

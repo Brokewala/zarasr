@@ -9,7 +9,7 @@
 .AboutZara_randonne{
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 300px;
 
 }
 .AboutZara_randonne_right img{

@@ -1,0 +1,15 @@
+#LastProject{
+    padding-bottom:4em;
+}
+.LastProject_title{
+    text-align:center;
+    padding :3em 0px;
+}
+.tretect_img_content img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+.LastProject_title h1{
+    color:var(--bg);
+}
