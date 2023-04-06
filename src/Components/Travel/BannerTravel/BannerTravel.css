@@ -1,18 +1,15 @@
 #BannerTravel{
     padding-top: 4.5em;
     height: 580px;
-    /* background: url('/public/assets/pexels-anamul-rezwan-1216589.jpg'); */
-    /* background: url('/public/assets/pexels-andrea-piacquadio-3801451.jpg'); */
-    /* background: url('/public/assets/pexels-tiger-lily-4481328.jpg'); */
 }
 .BannerTravel_container{
     background: linear-gradient(90deg, #333, transparent);
     height: 100%;
+    padding-top: 3%;
 }
 .BannerTravel-container {
     width: 85%;
     margin: 0px auto;
-    padding-top: 3%;
     padding-bottom: 2%;
     display: grid;
     grid-template-columns: 600px 1fr;
@@ -59,4 +56,6 @@
     .BannerTravel-content-right {
         display: none;
     }
+}
+@media screen and (max-width:990px) {
 }

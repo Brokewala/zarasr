@@ -14,7 +14,7 @@ export default function Contact() {
   const [username, setUsername] = useState('')
   const [message, setMessage] = useState('')
   const [projet, setProjet] = useState('')
-  
+
   const [Error, setError] = useState(null)
   const [Color, setColor] = useState("transparent")
   const form = useRef()
@@ -47,13 +47,13 @@ export default function Contact() {
     if (message.length <= 0) {
       setColor('red')
       return setError("Entrez une valeur pour ce champ.")
-    }else{
+    } else {
       setError("")
       setColor('transparent')
     }
     // Envoyer email au societe zara sr
     emailjs.sendForm('service_awdcc9b', 'template_hy18f77', form.current, 'IpX7KEE1TiMZjpzDy')
-    .then((result) => {
+      .then((result) => {
         if (result.status === 200) {
           // vide les champ de formulaire
           setphone("")
@@ -65,10 +65,10 @@ export default function Contact() {
           setError("Votre email est bien etez envoyer")
           setColor('green')
         }
-    }, (error) => {
-         setError("Veullez contact la societe directement par email ou Telephone")
-          setColor('red')
-    });
+      }, (error) => {
+        setError("Veullez contact la societe directement par email ou Telephone")
+        setColor('red')
+      });
 
   }
 
@@ -150,10 +150,10 @@ export default function Contact() {
           </div>
           <div className='Contact-right'>
             <div className='Contact-right-title'>
-            <h1>Nos informations</h1>
+              <h1>Nos informations</h1>
             </div>
             <div className='Contact-abouts-content'>
-            <div className='contact-phone'>
+              <div className='contact-phone'>
                 <div className='contact-phone-content'>
                   <h3 className='contact-h1'>Telephone</h3>
                   <div className='contact-phone-body  contact_body'>
@@ -167,15 +167,15 @@ export default function Contact() {
                 </div>
               </div>
               <div className='contact-email'>
-              <div className='contact-email-content'>
-                <h3 className='contact-h1'>Address Email</h3>
-                <div className='contact-email-body contact_body'>
-                  <div className='email-logo'><EmailIcon className='icon down' sx={{ fontSize: "40px" }} /></div>
-                  <ul className="Contact_ul_email">
-                    <li>info.zarasr@gmail.com</li>
-                  </ul>
+                <div className='contact-email-content'>
+                  <h3 className='contact-h1'>Address Email</h3>
+                  <div className='contact-email-body contact_body'>
+                    <div className='email-logo'><EmailIcon className='icon down' sx={{ fontSize: "40px" }} /></div>
+                    <ul className="Contact_ul_email">
+                      <li>info.zarasr@gmail.com</li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
               </div>
               <div className='contact-address'>
                 <div className='contact-address-content'>
@@ -212,7 +212,7 @@ export default function Contact() {
                       </a>
 
                     </li>
-                   
+
                   </ul>
                 </div>
               </div>

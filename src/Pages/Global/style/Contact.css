@@ -11,10 +11,12 @@
 .Contact-form-content h1 {
     color: var(--bg);
 }
-.contact_body{
+
+.contact_body {
     margin-top: 1em;
     padding-top: 10px;
 }
+
 .Contact-right {
     padding-top: 20px;
 }
@@ -89,9 +91,10 @@
 
 }
 
-.Contact_ul_email li{
+.Contact_ul_email li {
     font-size: 1.2em;
 }
+
 .contact-phone {
     display: flex;
     justify-content: flex-end;
@@ -137,13 +140,16 @@
 .Contact-left {
     padding: 20px 50px;
 }
-.Contact-right-title{
+
+.Contact-right-title {
     text-align: center;
 }
-.Contact-right-title h1{
+
+.Contact-right-title h1 {
     color: var(--bg);
     font-size: 1.5em;
 }
+
 .filed {
     margin-bottom: 10px;
 }
@@ -191,26 +197,70 @@ textarea {
     color: var(--bg);
 
 }
-.phone_ul li{
+
+.phone_ul li {
     font-size: 1em;
     margin-top: 5px;
 }
-@media screen and (max-width:768px) {
+#Contact{
+    max-width: 100%;
+}
+@media screen and (max-width:1025px) {
+    #Contact{
+        max-width: 100%;
+    }
     .Contact-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        padding: 3% 0px;
+        margin-top: 0px;
     }
 
-    #Contact {
-        padding-top: 10%;
+    .Contact-right-title {
+        text-align: left;
     }
 
-    .Contact-right {
-        padding: 1em 2.5em;
+    .contact-phone {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .contact-email {
+        display: flex;
+        justify-content: flex-start;
     }
 }
 
+@media screen and (max-width:990px) {
+  
+    .Contact-container {
+        margin-top:15px;
+
+        display: flex;
+        justify-content: center;
+    }
+    .Contact-left{
+        padding: 10px 10px;
+
+    }
+ 
+
+    .Contact-right {
+        display: none;
+    }
+
+    .filed {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 300px;
+
+    }
+
+}
+@media screen and (max-width:320px) {
+    .filed {
+        width: 250px;
+    }
+}
 .error {
     color: white;
     padding: 0.5em 1.5em;
