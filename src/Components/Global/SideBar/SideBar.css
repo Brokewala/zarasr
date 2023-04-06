@@ -15,8 +15,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-bottom: 1px solid #cecece;
+}
+.SideBar_icon_top{
+    color:#333;
 }
 .SideBar_right img{
     width: 100px;

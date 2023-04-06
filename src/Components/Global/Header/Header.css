@@ -67,6 +67,9 @@
     .Header-link ul li a {
         font-size: 1em;
     }
+    .Header_sidebar{
+        display: block;
+    }
 }
 
 @media screen and (max-width:945px) {

@@ -14,7 +14,7 @@ const TeamAbout = () => (
             <div className="TeamAbout_img2 TeamAbout_img">
                 <img src="/team/sa.jpg" alt="randonne" />
                 <div className='TeamAbout_dec'>
-                    <h4>Sarah</h4>
+                    <h4>RAHALISOA soazara Sarah T.</h4>
                     <h3>Consultante et Moniteur de Randonnée</h3>
                 </div>
             </div>
@@ -22,7 +22,7 @@ const TeamAbout = () => (
                 <img src="/team/ste.jpg" alt="randonne" />
                 <div className='TeamAbout_dec'>
                     <h4>Stephane</h4>
-                    <h3>Developpeur Web</h3>
+                    <h3>ANJARASOA Herinambinina Stephane</h3>
                 </div>
             </div>
             <div className="TeamAbout_img4 TeamAbout_img">
