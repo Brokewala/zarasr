@@ -1,28 +1,33 @@
-#HommeBanners{
+#HommeBanners {
     margin-top: 70px;
 }
-.silde{
+
+.silde {
     width: 100%;
     height: 510px;
-    
+
 }
-.silde1_content{
+
+.silde1_content {
     background: linear-gradient(90deg, #333, transparent);
     padding: 2em 3em;
     height: 100%;
     display: grid;
     grid-template-columns: 550px 1fr;
 }
-.silde1_content_left h1{
+
+.silde1_content_left h1 {
     margin-bottom: 10px;
     color: #80d4d4f3;
 }
-.silde1_content_left p{
+
+.silde1_content_left p {
     color: #fff;
     margin-bottom: 10px;
 
 }
-.silde1_content_left button{
+
+.silde1_content_left button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -30,4 +35,19 @@
     color: white;
     font-size: 17px;
     cursor: pointer;
+}
+
+
+@media screen and (max-width:1500px) {
+    
+}
+
+@media screen and (max-width:990px) {
+    #HommeBanners {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:945px) {
+   
 }

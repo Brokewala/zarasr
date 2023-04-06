@@ -28,12 +28,7 @@ export default function SideBar({hanleActive}) {
                             <span>Aboute</span>
                         </div>
                     </Link>
-                    <Link to="/contact">
-                        <div className='SideBar_link'>
-                            <Cancel className='SideBar_icon'/>
-                            <span>Contact</span>
-                        </div>
-                    </Link>
+                    
                     <Link to="/mada-tretec">
                         <div className='SideBar_link'>
                             <Cancel/>
@@ -50,6 +45,12 @@ export default function SideBar({hanleActive}) {
                         <div className='SideBar_link'>
                             <Cancel className='SideBar_icon'/>
                             <span>Travail</span>
+                        </div>
+                    </Link>
+                    <Link to="/contact">
+                        <div className='SideBar_link'>
+                            <Cancel className='SideBar_icon'/>
+                            <span>Contact</span>
                         </div>
                     </Link>
                 </div>

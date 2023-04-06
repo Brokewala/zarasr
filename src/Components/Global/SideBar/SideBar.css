@@ -3,7 +3,7 @@
     right: 0;
     top: 0;
     height: 100vh;
-    background-color: red;
+    background-color: white;
     width: 220px;
     z-index: 4000;
     transition: .4s;
@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 5px 10px;
-    background-color: green;
+    border-bottom: 1px solid #cecece;
 }
 .SideBar_right img{
     width: 100px;
@@ -27,8 +27,12 @@
     align-items: center;
     gap: 10px;
     margin-top: 10px;
-    background-color: gray;
+    border-bottom: 1px solid #cecece;
     padding: 10px 20px;
+    transition: .4s;
+}
+.SideBar_link:hover{
+    background-color:#cecece ;
 }
 .SideBar_link  span{
     color: white;
