@@ -44,7 +44,13 @@
 
 @media screen and (max-width:990px) {
     #HommeBanners {
-        margin-top: 60px;
+        margin-top: 30px;
+    }
+    .silde1_content {
+        padding: 2em 1em;
+        height: 100%;
+        /* display: grid;
+        grid-template-columns: 550px 1fr; */
     }
 }
 

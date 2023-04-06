@@ -1,18 +1,15 @@
 import React from "react"
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
+import "swiper/css/pagination"
 import "./HommeBanners.css"
 
 export default function HommeBanner() {
     return (<div id="HommeBanners">
         <Swiper
-            navigation={true}
-            modules={[Autoplay, Pagination, Navigation]}
-            spaceBetween={30}
+            modules={[Autoplay, Pagination]}
+            spaceBetween={20}
             centeredSlides={true}
             autoplay={{
                 delay: 2500,
