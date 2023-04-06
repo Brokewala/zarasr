@@ -1,0 +1,38 @@
+#SideBar{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background-color: red;
+    width: 220px;
+    z-index: 4000;
+    transition: .4s;
+}
+.SideBar_container{
+
+}
+.SideBar_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background-color: green;
+}
+.SideBar_right img{
+    width: 100px;
+    object-fit: cover;
+}
+.SideBar_link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: gray;
+    padding: 10px 20px;
+}
+.SideBar_link  span{
+    color: white;
+}
+.SideBar_link .SideBar_icon{
+    color: white;
+}

@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 .Header-left .logo {
@@ -35,7 +35,9 @@
     transition: .3s;
     color: white;
 }
-
+.Header_sidebar{
+    display: none;
+}
 
 @media screen and (max-width:1500px) {
     .Header-left .logo {
@@ -43,7 +45,8 @@
     }
 
     .Header-container {
-        padding: 0.3em 0px;
+        /* padding: 0.3em 0px; */
+
     }
 
     .Header-link ul li a {
@@ -58,7 +61,7 @@
     }
 
     .Header-container {
-        padding: 0.3em 0px;
+        /* padding: 0.3em 0px; */
     }
 
     .Header-link ul li a {
@@ -67,19 +70,29 @@
 }
 
 @media screen and (max-width:945px) {
-    .Header-container {
+    .Header_sidebar{
+        display: block;
+    }
+    /* .Header-container {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+    } */
 
     .Header-left {
         display: flex;
         align-items: center;
         justify-content: center;
     }
+    .Header-link{
+        display: none;
 
+    }
     .Header-right {
         display: none;
+    }
+    .Header_menu{
+        font-size: 80px;
+        cursor: pointer;
     }
 }

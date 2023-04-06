@@ -22,10 +22,7 @@ export default function HommeBanner() {
                 clickable: true,
             }}
             slidesPerView={1}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
             className="mySwiper"
-
         >
             <SwiperSlide style={{ background: 'url(/assets/pexels-fauxels-3184339.jpg) center/cover no-repeat ', }} className="silde1 silde">
                 <div className="silde1_content">
@@ -44,7 +41,6 @@ export default function HommeBanner() {
                     <div className="silde1_content">
                         <div className="silde1_content_left">
                             <h1>La technologie pour votre succès</h1>
-                            {/* <h1>Innovez, créez, réussissez avec notre expertise technologique</h1> */}
                             <p>
                                 Innovez, créez, réussissez avec notre expertise technologique"
                                 Description: Nous sommes votre partenaire de confiance dans tous les aspects de la technologie, offrant des services de conseil, de développement et de maintenance de sites web, d'applications et de logiciels. Nous sommes passionnés par l'innovation et nous sommes déterminés à vous aider à atteindre vos objectifs technologiques et à réussir dans un monde en constante évolution. Faites confiance à notre expertise pour améliorer votre entreprise et votre vie professionnelle.
@@ -63,7 +59,7 @@ export default function HommeBanner() {
                             <p>
                                 Partez à l'aventure avec Zara SR et découvrez les trésors cachés de Madagascar lors de nos randonnées. Que vous soyez novice ou expérimenté, nos guides locaux expérimentés vous emmèneront hors des sentiers battus pour explorer les paysages naturels, les villages traditionnels et la faune unique de Madagascar. Reconnectez-vous avec la nature, vivez des expériences inoubliables et créez des souvenirs durables avec Zara SR.
                             </p>
-                            <button>Faites Nous Part de votre Projet</button>
+                            <button>Qu'est qu'on peut faire pour vous ?</button>
 
                         </div>
                         <div className="silde1_content_right"></div>
@@ -81,7 +77,7 @@ export default function HommeBanner() {
                                 Nous vous aidons également à obtenir les visas nécessaires pour travailler légalement. Avec Zara SR,
                                 vous pouvez réaliser vos rêves professionnels et découvrir de nouvelles cultures tout en gagnant en expérience.
                             </p>
-                            <button>Faites Nous Part de votre Projet</button>
+                            <button>Qu'est qu'on peut faire pour vous ?</button>
                         </div>
                         <div className="silde1_content_right"></div>
                     </div>

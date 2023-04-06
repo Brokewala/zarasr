@@ -1,13 +1,16 @@
 .AboutZara_content {
     width: 85%;
     margin: 0px auto;
-    padding: 2% 0px;
+    /* background-color: green; */
 }
 
-.AboutZara1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+.AboutZara_title {
+    padding: 30px 0px;
+}
+
+.AboutZara_title h1 {
+    color: var(--bg);
+    text-align: center;
 }
 
 .AboutZara1 img {
@@ -15,7 +18,6 @@
 }
 
 .TeamAbout_content {
-    background-color: green;
     position: relative;
     width: 630px;
     margin: 0px auto;
@@ -26,7 +28,6 @@
 }
 
 #TeamAbout {
-    background-color: red;
     width: 100%;
 
 }
@@ -59,7 +60,6 @@
 
 .TeamAbout_img4 {
     transform: rotateZ(45deg);
-
 }
 
 .TeamAbout_dec {
@@ -71,7 +71,24 @@
 .TeamAbout_dec h4 {
     color: white;
 }
-.AboutZara_container{
+
+.AboutZara_container {
+    padding: 50px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.AboutZara_foot_content {
+    margin-top: 2%;
+}
+
+.AboutZara_foot_dec {
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 3%;
+
+}
+
+.AboutZara1_left {
+    padding-bottom: 3%;
 }
