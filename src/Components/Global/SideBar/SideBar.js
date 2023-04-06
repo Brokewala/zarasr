@@ -7,6 +7,7 @@ import ContactPageIcon from '@mui/icons-material/ContactPage';
 import InfoIcon from '@mui/icons-material/Info';
 import HikingIcon from '@mui/icons-material/Hiking';
 import DvrIcon from '@mui/icons-material/Dvr';
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 
 export default function SideBar({hanleActive}) {
     return (
@@ -48,7 +49,7 @@ export default function SideBar({hanleActive}) {
                     </Link>
                     <Link to="/find-job">
                         <div className='SideBar_link'>
-                            <Cancel className='SideBar_icon'/>
+                            <BusinessCenterIcon className='SideBar_icon'/>
                             <span>Travail à l'étranger</span>
                         </div>
                     </Link>

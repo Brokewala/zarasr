@@ -112,9 +112,21 @@
 }
 
 @media screen and (max-width:970px) {
+    .HomeAbout-title {
+        padding-bottom: 40px;
+    }
+
+    .HomeAbout-title h1 {
+        font-size: 1.2em;
+    }
+
+    .HomeAbout_underline {
+        width: 200px;
+    }
+
     .HomeAbout-card-body p {
         word-wrap: break-word;
-        font-size: 1.1em;
+        font-size: 0.8em;
     }
 
     .HomeAbout-content {
@@ -122,7 +134,7 @@
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
-        gap: 60px;
+        gap: 20px;
     }
 
     .HomeAboutCard {
@@ -130,7 +142,7 @@
     }
 
     .HomeAbout-card-title h1 {
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
 
     .btn_savoir {
@@ -144,12 +156,8 @@
         width: 100%;
     }
 
-    .HomeAbout-card-title h1 {
-        font-size: 1.5em;
-    }
-
     .HomeAbout-card-body p {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     .btn_savoir {

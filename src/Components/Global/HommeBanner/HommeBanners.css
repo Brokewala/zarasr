@@ -23,7 +23,7 @@
 
 .silde1_content_left p {
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
 }
 
@@ -38,22 +38,60 @@
 }
 
 
-@media screen and (max-width:1500px) {
-    
-}
+@media screen and (max-width:1500px) {}
 
 @media screen and (max-width:990px) {
     #HommeBanners {
         margin-top: 30px;
     }
+
     .silde1_content {
         padding: 2em 1em;
         height: 100%;
-        /* display: grid;
-        grid-template-columns: 550px 1fr; */
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .silde1_content_right {
+        display: none;
     }
 }
 
-@media screen and (max-width:945px) {
-   
+@media screen and (max-width:600px) {
+    .silde1_content_left h1 {
+        font-size: 22px;
+    }
+
+    .silde1_content_left p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .silde1_content_left h1 {
+        font-size: 20px;
+    }
+
+    .silde1_content_left p {
+        font-size: 14px;
+    }
+
+    .silde1_content_left button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .silde1_content_left h1 {
+        font-size: 20px;
+    }
+
+    .silde1_content_left p {
+        font-size: 12px;
+    }
+
+    .silde1_content_left button {
+        font-size: 13px;
+    }
 }

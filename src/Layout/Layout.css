@@ -32,7 +32,11 @@
     /* backdrop-filter: brightness(250%); */
     transition-property: background, transform;
 }
-
+@media screen and (max-width:945px) {
+    .cursor{
+        display: none;
+    }
+}
 @media screen and (max-width:768px) {
     #Nav {
         display: none;

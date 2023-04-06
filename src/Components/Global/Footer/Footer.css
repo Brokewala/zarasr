@@ -40,9 +40,11 @@
     align-items: center;
     gap: 10px;
 }
-.Footer_Lot{
+
+.Footer_Lot {
     line-height: 22px;
 }
+
 .Footer-left .logo {
     margin-top: 5px;
     padding: 5px 20px;
@@ -109,7 +111,7 @@
     text-align: center;
 }
 
-.Footer_ul_num li{
+.Footer_ul_num li {
     margin-top: 5px;
 }
 
@@ -152,7 +154,7 @@
     }
 
     .Footer-right ul li span {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .Footer-title {
@@ -187,14 +189,14 @@
     }
 
     .Footer-right ul li span {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     .Footer-title {
-        font-size: 2em;
+        font-size: 1.1em;
     }
 
     .Footer-copyright p {
-        font-size: 1em;
+        font-size: 0.7em;
     }
 }
