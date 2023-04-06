@@ -14,14 +14,14 @@ const TeamAbout = () => (
             <div className="TeamAbout_img2 TeamAbout_img">
                 <img src="/team/sa.jpg" alt="randonne" />
                 <div className='TeamAbout_dec'>
-                    <h4>JACQUES Jean Lodphin</h4>
-                    <h3>Developpeur Web</h3>
+                    <h4>Sarah</h4>
+                    <h3>Consultante et Moniteur de Randonnée</h3>
                 </div>
             </div>
             <div className="TeamAbout_img3 TeamAbout_img">
                 <img src="/team/ste.jpg" alt="randonne" />
                 <div className='TeamAbout_dec'>
-                    <h4>JACQUES Jean Lodphin</h4>
+                    <h4>Stephane</h4>
                     <h3>Developpeur Web</h3>
                 </div>
             </div>

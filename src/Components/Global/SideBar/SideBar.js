@@ -9,7 +9,7 @@ export default function SideBar({hanleActive}) {
             <div className="SideBar_container">
                 <div className="SideBar_header">
                     <div className="SideBar_left">
-                        <Cancel onClick={hanleActive} />
+                        <Cancel className='SideBar_icon' onClick={hanleActive} />
                     </div>
                     <div className="SideBar_right">
                         <img className='logo' src="/assets/logo3.png" alt="logo zara sr" />
