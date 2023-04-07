@@ -1,0 +1,57 @@
+======introduction
+Bienvenue sur notre site web ! Nous sommes une entreprise qui
+ se consacre à aider les jeunes Malgaches à trouver des opportunités 
+d'emploi à l'étranger tout en offrant des services de conseil en 
+technologie et des activités de randonnée. Nous sommes passionnés 
+par l'accompagnement des jeunes talents et la promotion de la réussite
+ professionnelle.
+=====randonne
+Bienvenue sur le site web de Zara sr, votre partenaire pour des randonnées 
+mémorables à travers Madagascar. Nous sommes fiers de vous offrir des 
+itinéraires uniques, adaptés à tous les niveaux, pour explorer les paysages
+ naturels les plus époustouflants de l'île. Avec notre équipe de guides
+ expérimentés, vous pouvez découvrir des endroits hors des sentiers battus
+ et créer des souvenirs inoubliables. Rejoignez-nous pour une expérience de 
+randonnée authentique et laissez-nous vous montrer la beauté naturelle de
+ Madagascar.
+=====intro
+Bienvenue chez Zara SR, 
+une entreprise malgache dynamique qui a pour mission d'aider les jeunes de 
+Madagascar à trouver des emplois à l'étranger, de leur offrir des services 
+de randonnée pour se détendre et de les accompagner dans leur formation en 
+technologies telles que la création de sites web. Nous sommes engagés à offrir 
+une expérience exceptionnelle à nos clients et à leur fournir des services de 
+qualité supérieure qui répondent à leurs besoins. Nous sommes fiers d'être une 
+entreprise qui valorise la communauté et qui travaille avec passion pour aider 
+les jeunes de Madagascar à atteindre leur plein potentiel.
+=====intro 10
+Nous sommes un groupe de jeunes Malgaches passionnés par l'idée d'aider 
+nos compatriotes à réaliser leurs rêves professionnels et de vie. Nous
+ avons créé notre entreprise pour offrir une gamme de services qui répondent
+ à ces besoins, tels que l'aide à la recherche d'emploi à l'étranger,
+ l'organisation de randonnées pour se ressourcer et se détendre, et
+ la formation aux technologies telles que la création de sites web.
+ Nous sommes fiers de pouvoir aider les jeunes à trouver leur place dans
+ le monde du travail et à atteindre leurs objectifs, tout en leur offrant 
+des opportunités de se détendre et de se connecter avec la nature. Notre 
+équipe est déterminée à fournir un service de qualité et à faire une différence
+ dans la vie des gens.
+===conclu
+En conclusion, nous sommes une équipe de jeunes
+ malgaches engagés dans la promotion de la formation en 
+technologie, le tourisme et l'emploi à l'étranger. 
+Nous sommes passionnés par notre travail et nous nous engageons à 
+offrir des services de qualité pour aider nos clients à atteindre
+ leurs objectifs. Nous espérons que notre expertise et notre engagement 
+envers la réussite de nos clients vous convaincront de travailler avec 
+nous et de bénéficier de notre expérience et de notre passion.
+
+
+
+====================
+"Explorez la nature avec nous!"
+"Partez à la découverte de paysages époustouflants"
+"Profitez de l'instant présent en pleine nature"
+"Laissez-vous guider vers des horizons nouveaux"
+"Reconnectez-vous avec la nature lors de nos randonnées"
+"Vivez des expériences uniques en montagne avec notre équipe"

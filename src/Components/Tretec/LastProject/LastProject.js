@@ -25,9 +25,13 @@ export default function LastProject() {
                     slidesPerView={3}
                     className="tretec_swiper"
                     breakpoints={{
+                        320: {
+                            slidesPerView: 1,
+                            spaceBetween: 1
+                        },
                         640:{
                             slidesPerView:1,
-                            spaceBetween:10
+                            spaceBetween:1
                         },
                         768:{
                             slidesPerView:2,

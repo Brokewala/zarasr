@@ -1,11 +1,11 @@
 .About-container {
-    padding: 5% 0px;
+    padding: 2.6% 0px;
 
 }
 
 @media screen and (max-width:1024px) {
     .About-container {
-        padding-top: 30%;
+        /* padding-top: 20%; */
 
     }
 

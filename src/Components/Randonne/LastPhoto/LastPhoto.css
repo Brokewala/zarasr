@@ -1,20 +1,31 @@
-#LastPhoto{
+#LastPhoto {
     padding-bottom: 20px;
     padding-top: 50px;
 }
-.slide_img{
+
+.slide_img {
     height: 350px;
 }
 
-.slide_img_content img{
+.slide_img_content img {
     height: 350px;
     width: 100%;
     object-fit: cover;
 }
-.LastPhoto_title{
+
+.LastPhoto_title {
     text-align: center;
     margin-bottom: 40px;
 }
-.LastPhoto_title h1{
+
+.LastPhoto_title h1 {
     color: var(--bg);
+}
+
+@media screen and (max-width:750px) {
+    /* .slide_img_content img {
+        height: 350px;
+        width: 300px;
+        object-fit: cover;
+    } */
 }

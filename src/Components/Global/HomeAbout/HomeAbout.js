@@ -47,7 +47,7 @@ export default function HomeAbout() {
               </p>
             </div>
             <div className="HomeAbout-card-bts">
-              <NavLink to="/work-job">
+              <NavLink to="/travail">
                 <button className='btn_savoir'>Savoir plus</button>
               </NavLink>
             </div>
@@ -124,9 +124,6 @@ export default function HomeAbout() {
               </NavLink>
             </div>
           </div>
-
-
-
         </div>
       </div>
     </div>

@@ -23,26 +23,30 @@ export default function LastPhoto() {
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
-                    }}          
+                    }}
                     slidesPerView={3}
                     className="mySwiper"
                     breakpoints={{
-                        640:{
-                            slidesPerView:1,
-                            spaceBetween:10
+                        320: {
+                            slidesPerView: 1,
+                            spaceBetween: 1
                         },
-                        768:{
-                            slidesPerView:2,
-                            spaceBetween:10
+                        640: {
+                            slidesPerView: 1,
+                            spaceBetween: 5
                         },
-                        1024:{
-                            slidesPerView:3,
-                            spaceBetween:20
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 10
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 20
                         }
                     }}
                 >
                     {
-                        PhotoData.map((data,index)=>(
+                        PhotoData.map((data, index) => (
                             <SwiperSlide key={index} className="slide_img ">
                                 <div className="slide_img_content">
                                     <img src={data.image} alt={data.title} />

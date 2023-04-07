@@ -3,34 +3,41 @@ import "./AboutZara.css"
 
 const TeamAbout = () => (
     <div id="TeamAbout">
-        <div className="TeamAbout_content">
-            <div className="TeamAbout_img1 TeamAbout_img">
-                <img src="/team/lodphin.jpg" alt="randonne" />
-                <div className='TeamAbout_dec'>
-                    <h4>JACQUES Jean Lodphin</h4>
-                    <h3>Developpeur Web</h3>
+        <div className="TeamAbout_container">
+            <div className="TeamAbout_content">
+                <div className="TeamAbout_img3 TeamAbout_img">
+                    <img src="/team/ste.jpg" alt="stephane" />
+                    <div className='TeamAbout_dec_content'>
+                        <div className='TeamAbout_dec'>
+                            <h6>ANJARASOA Herinambinina Stephane</h6>
+                            <p>Informaticien</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div className="TeamAbout_img2 TeamAbout_img">
-                <img src="/team/sa.jpg" alt="randonne" />
-                <div className='TeamAbout_dec'>
-                    <h4>RAHALISOA soazara Sarah T.</h4>
-                    <h3>Consultante et Moniteur de Randonnée</h3>
+                <div className="TeamAbout_img4 TeamAbout_img">
+                    <img src="/team/ed1.jpeg" alt="edmondine" />
+                    <div className='TeamAbout_dec'>
+                        <h6>RASOATAFITA edmondine</h6>
+                        <p>Juriste</p>
+                    </div>
                 </div>
-            </div>
-            <div className="TeamAbout_img3 TeamAbout_img">
-                <img src="/team/ste.jpg" alt="randonne" />
-                <div className='TeamAbout_dec'>
-                    <h4>Stephane</h4>
-                    <h3>ANJARASOA Herinambinina Stephane</h3>
+                <div className="TeamAbout_img1 TeamAbout_img">
+                    <img src="/team/lodphin.jpg" alt="lodphin" />
+                    <div className='TeamAbout_dec'>
+                        <h6>JACQUES Jean Lodphin</h6>
+                        <p>Developpeur Web</p>
+                    </div>
                 </div>
-            </div>
-            <div className="TeamAbout_img4 TeamAbout_img">
-                <img src="/articles/IMG_20221119_094315.jpg" alt="randonne" />
-                <div className='TeamAbout_dec'>
-                    <h4>JACQUES Jean Lodphin</h4>
-                    <h3>Developpeur Web</h3>
+                <div className="TeamAbout_img2 TeamAbout_img">
+                    <img src="/team/sa.jpg" alt="sarah" />
+                    <div className='TeamAbout_dec_content'>
+                        <div className='TeamAbout_dec'>
+                            <h6>RAHALISOA soazara Sarah T.</h6>
+                            <p>Consultante et Moniteur de Randonnée</p>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>

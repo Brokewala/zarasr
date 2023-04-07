@@ -14,7 +14,7 @@ export default function CirciutsRandonne() {
                         <hr />
                         <div className='CirciutsRandonne-card-left-info'>
                             <p>
-                            Offrez le meilleur à ceux que vous aimez et partagez des moments fabuleux!
+                                Offrez le meilleur à ceux que vous aimez et partagez des moments fabuleux!
                             </p>
                             <div className='CirciutsRandonne-btn'>
                                 <NavLink to="/contact">
@@ -35,7 +35,7 @@ export default function CirciutsRandonne() {
                         <hr />
                         <div className='CirciutsRandonne-card-left-info'>
                             <p>
-                            Parfois un peu d'évasion serait la bienvenue et ferait le plus grand bien
+                                Parfois un peu d'évasion serait la bienvenue et ferait le plus grand bien
                             </p>
                             <div className='CirciutsRandonne-btn'>
                                 <NavLink to="/contact">

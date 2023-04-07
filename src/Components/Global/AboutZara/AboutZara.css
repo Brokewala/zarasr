@@ -18,57 +18,70 @@
 }
 
 .TeamAbout_content {
-    position: relative;
-    width: 630px;
-    margin: 0px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    justify-content: center;
+    /* grid-gap: 150px; */
 }
 
 #TeamAbout {
     width: 100%;
+}
+.TeamAbout_container{
+    display: flex;
+    justify-content: center;
 
 }
-
 .TeamAbout_img {
     background-color: var(--bg);
     width: 230px;
     height: 320px;
+    display: grid;
+    grid-template-rows: 1fr 70px;
 }
 
 .TeamAbout_img img {
     width: 230px;
-    height: 250px;
+    height: 240px;
     object-fit: cover;
 }
 
 .TeamAbout_img1 {
     transform: rotateZ(-45deg);
-    margin-left: -80px
+    margin-top: -50px;
+    margin-right: 50px;
 }
 
 .TeamAbout_img2 {
     transform: rotateZ(45deg);
+    margin-left: 30px;
+
 }
 
 .TeamAbout_img3 {
     transform: rotateZ(-45deg);
-    margin-left: -80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
 }
 
 .TeamAbout_img4 {
     transform: rotateZ(45deg);
-}
+    margin-left: 75px;
+    margin-bottom: -10px;
 
+} 
+.TeamAbout_dec_content{
+    display: flex;
+    align-items: center;
+
+}
 .TeamAbout_dec {
     padding: 5px 10px;
     text-align: center;
 }
 
-.TeamAbout_dec h3,
-.TeamAbout_dec h4 {
+.TeamAbout_dec p,
+.TeamAbout_dec h6 {
     color: white;
 }
 
@@ -91,4 +104,45 @@
 
 .AboutZara1_left {
     padding-bottom: 3%;
+}
+@media screen and (max-width:990px) {}
+@media screen and (max-width:700px) {
+    .TeamAbout_content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 15px;
+    }
+    .TeamAbout_img1 {
+        transform: rotateZ(0deg);
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    .TeamAbout_img2 {
+        transform: rotateZ(0deg);
+        margin-left: 0px;
+    
+    }
+    
+    .TeamAbout_img3 {
+        transform: rotateZ(0deg);
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .TeamAbout_img4 {
+        transform: rotateZ(0deg);
+        margin-left: 0px;
+        margin-bottom: 0px;
+    
+    } 
+}
+@media screen and (max-width:450px) {
+    .TeamAbout_content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
 }

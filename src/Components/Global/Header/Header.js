@@ -11,7 +11,7 @@ const HeaaderLink = () => (
                 <NavLink className={'link'} to="/" >Accueil</NavLink>
             </li>
             <li>
-                <NavLink className={'link'} to="/about" >A Propos</NavLink>
+                <NavLink className={'link'} to="/a-propos" >A Propos</NavLink>
             </li>
             <li>
                 <NavLink className={'link'} to="/contact" >Contact</NavLink>

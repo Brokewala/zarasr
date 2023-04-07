@@ -58,6 +58,7 @@
 
 .HomeAboutCard {
     width: 350px;
+    /* height: 300px; */
     border-radius: 5px;
     display: grid;
     grid-template-rows: auto auto auto;
@@ -94,7 +95,7 @@
 
 .HomeAbout-card-body p {
     word-wrap: break-word;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .HomeAbout-card-bts {

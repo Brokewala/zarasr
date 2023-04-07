@@ -28,7 +28,7 @@ export default function SideBar({hanleActive}) {
                             <span>Accueil</span>
                         </div>
                     </Link>
-                    <Link to="/about">
+                    <Link to="/a-propos">
                         <div className='SideBar_link'>
                             <InfoIcon className='SideBar_icon'/>
                             <span>À propos</span>
@@ -47,7 +47,7 @@ export default function SideBar({hanleActive}) {
                             <span>Randonnée</span>
                         </div>
                     </Link>
-                    <Link to="/find-job">
+                    <Link to="/travail">
                         <div className='SideBar_link'>
                             <BusinessCenterIcon className='SideBar_icon'/>
                             <span>Travail à l'étranger</span>

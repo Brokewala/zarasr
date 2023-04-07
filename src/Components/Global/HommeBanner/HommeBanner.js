@@ -1,6 +1,7 @@
 import React from "react"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from "swiper";
+import { Link } from "react-router-dom"
 import "swiper/css";
 import "swiper/css/pagination"
 import "./HommeBanners.css"
@@ -28,7 +29,9 @@ export default function HommeBanner() {
                         <p>
                             Nous offrons une expérience unique pour les jeunes Malgaches qui souhaitent explorer le monde en utilisant la technologie pour organiser des randonnées passionnantes. De plus, nous offrons des conseils professionnels pour aider les jeunes à trouver des opportunités de travail à l'étranger et à bâtir une carrière réussie. Joignez-vous à nous pour découvrir le monde, acquérir des compétences et élargir vos horizons professionnels.
                         </p>
-                        <button>Faites Nous Part de votre Projet</button>
+                        <Link to="/contact">
+                            <button>Faites Nous Part de votre Projet</button>
+                        </Link>
                     </div>
                     <div className="silde1_content_right"></div>
                 </div>
@@ -42,7 +45,9 @@ export default function HommeBanner() {
                                 Innovez, créez, réussissez avec notre expertise technologique"
                                 Description: Nous sommes votre partenaire de confiance dans tous les aspects de la technologie, offrant des services de conseil, de développement et de maintenance de sites web, d'applications et de logiciels. Nous sommes passionnés par l'innovation et nous sommes déterminés à vous aider à atteindre vos objectifs technologiques et à réussir dans un monde en constante évolution. Faites confiance à notre expertise pour améliorer votre entreprise et votre vie professionnelle.
                             </p>
-                            <button>Faites Nous Part de votre Projet</button>
+                            <Link to="/contact">
+                                <button>Faites Nous Part de votre Projet</button>
+                            </Link>
                         </div>
                         <div className="silde1_content_right"></div>
                     </div>
@@ -56,7 +61,9 @@ export default function HommeBanner() {
                             <p>
                                 Partez à l'aventure avec Zara SR et découvrez les trésors cachés de Madagascar lors de nos randonnées. Que vous soyez novice ou expérimenté, nos guides locaux expérimentés vous emmèneront hors des sentiers battus pour explorer les paysages naturels, les villages traditionnels et la faune unique de Madagascar. Reconnectez-vous avec la nature, vivez des expériences inoubliables et créez des souvenirs durables avec Zara SR.
                             </p>
-                            <button>Qu'est qu'on peut faire pour vous ?</button>
+                            <Link to="/contact">
+                                <button>Qu'est qu'on peut faire pour vous ?</button>
+                            </Link>
 
                         </div>
                         <div className="silde1_content_right"></div>
@@ -74,7 +81,9 @@ export default function HommeBanner() {
                                 Nous vous aidons également à obtenir les visas nécessaires pour travailler légalement. Avec Zara SR,
                                 vous pouvez réaliser vos rêves professionnels et découvrir de nouvelles cultures tout en gagnant en expérience.
                             </p>
-                            <button>Qu'est qu'on peut faire pour vous ?</button>
+                            <Link to="/contact">
+                                <button>Qu'est qu'on peut faire pour vous ?</button>
+                            </Link>
                         </div>
                         <div className="silde1_content_right"></div>
                     </div>

@@ -18,14 +18,18 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          {/* apropos */}
+          <Route path="/a-propos" element={<About />} />
+          {/* contact */}
           <Route path="/contact" element={<Contact />} />
           {/* travel */}
-          <Route path="/find-job" element={<HomeTravel />} />
+          <Route path="/travail" element={<HomeTravel />} />
           {/* mada tretec */}
           <Route path="/mada-tretec" element={<HomeTretec />} />
           {/* randonne */}
           <Route path="/mada-randonne" element={<HomeRandonne />} />
+          {/* 404 */}
+          <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </AppContext.Provider>

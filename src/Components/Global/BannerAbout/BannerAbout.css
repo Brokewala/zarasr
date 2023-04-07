@@ -1,14 +1,16 @@
-#BannerAbout{
+#BannerAbout {
     height: 500px;
     width: 100%;
 }
-.BannerAbout_content{
+
+.BannerAbout_content {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.BannerAbout_card_content{
+
+.BannerAbout_card_content {
     background-color: rgba(255, 255, 255, 0.829);
     box-shadow: 10px 10px 0px var(--bg);
 
@@ -19,9 +21,11 @@
     align-items: center;
     justify-content: center;
 }
-.BannerAbout_card{
+
+.BannerAbout_card {
     text-align: center;
 }
+
 .about_span_we {
     color: var(--red);
     font-size: 15px;
@@ -29,6 +33,7 @@
     font-style: italic;
     font-weight: 500;
 }
+
 .BannerAbout_card h3 {
     font-weight: 600;
     text-transform: uppercase;
@@ -59,12 +64,30 @@
     font-size: 17px;
     margin-top: 20px;
     font-weight: 500px;
-    /* box-shadow: 10px 10px 0px red; */
     cursor: pointer;
     transition: .4s;
 }
 
 .about_contact_savoir:hover {
     box-shadow: 10px 10px 0px #000;
-    /* background: red; */
+}
+
+@media screen and (max-width:700px) {
+    .BannerAbout_card_content {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .BannerAbout_card_content {
+        width: 300px;
+        height: 400px;
+    }
+}
+@media screen and (max-width:320px) {
+    .BannerAbout_card_content {
+        width: 270px;
+        height: 400px;
+    }
 }

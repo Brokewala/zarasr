@@ -14,7 +14,7 @@ export default function Nav() {
                         <NavLink className={'link'} to='/mada-tretec'>Mada tretec</NavLink>
                     </li>
                     <li>
-                        <NavLink className={'link'} to='/find-job'>Trouver de travail</NavLink>
+                        <NavLink className={'link'} to='/travail'>Trouver de travail</NavLink>
                     </li>
                 </ul>
             </div>

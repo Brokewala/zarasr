@@ -77,7 +77,7 @@ export default function Footer() {
             </li>
             <li>
               <ArrowRight sx={{ fontSize: "40px" }} />
-              <NavLink to="/find-job" >
+              <NavLink to="/travail" >
                 <span>Travail a l'etrange</span>
               </NavLink>
             </li>
@@ -112,7 +112,7 @@ export default function Footer() {
             </li>
             <li>
               <ArrowRight sx={{ fontSize: "40px" }} />
-              <NavLink to="/find-job" >
+              <NavLink to="/travail" >
                 <span>Aide les jeunes malagasy pour trouver  un travail à l'étranger</span>
               </NavLink>
             </li>

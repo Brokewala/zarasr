@@ -8,8 +8,10 @@ export default function BannerRandonne() {
             <div className="BannerRandonne-container">
                 <div className='BannerRandonne-card'>
                     <div className='BannerRandonne-info'>
-                        <h3>Organisez votre</h3>
-                        <h2>Randonne sur mesure</h2>
+                        {/* <h3>Organisez votre</h3> */}
+                        <h2>Reconnectez-vous </h2>
+                        {/* <h2>Randonne sur mesure</h2> */}
+                        <h3>avec la nature lors de nos randonnées</h3>
                     </div>
                     <div className='BannerRandonne-btn'>
                         <NavLink to="/contact">
