@@ -83,7 +83,7 @@ export default function Footer() {
             </li>
             <li>
               <ArrowRight sx={{ fontSize: "40px" }} />
-              <NavLink to="/about" >
+              <NavLink to="/a-propos" >
                 <span>A propos</span>
               </NavLink>
             </li>

@@ -3,6 +3,9 @@ import "./AboutZara.css"
 
 const TeamAbout = () => (
     <div id="TeamAbout">
+        <div className="TeamAbout_title">
+            <h1>L'equipe</h1>
+        </div>
         <div className="TeamAbout_container">
             <div className="TeamAbout_content">
                 <div className="TeamAbout_img3 TeamAbout_img">
